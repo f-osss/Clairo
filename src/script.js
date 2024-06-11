@@ -2,9 +2,9 @@ let img = document.querySelector('img')
 
 function changeClairoPic() {
     let img = document.querySelector('img')
-    img.src = 'images/clairosmiling.webp'
-    img.className = 'newClass';
-    doSomething();
+    img.src = 'images/clairosmiling1.jpg'
+    // img.className = 'newClass';
+    // doSomething();
 }
 
 const doSomething = () => {
@@ -16,9 +16,9 @@ const doSomething = () => {
 function changeClairoPicBack() {
     let img = document.querySelector('img')
     img.src = 'images/clairo.jpg'
-    img.style.width = '384px'
-    img.style.height = '176px'
-    img.style.marginLeft = '80px'
+    // img.style.width = '384px'
+    // img.style.height = '176px'
+    // img.style.marginLeft = '80px'
 
 }
 
@@ -33,3 +33,24 @@ function goCharm() {
 }
 
 charm.addEventListener('click', goCharm)
+
+let sling=document.querySelector('#listenSling')
+
+function goSling(){
+    window.open('https://clairo.lnk.to/Sling','_blank')
+}
+sling.addEventListener('click',goSling)
+
+let immunity=document.querySelector('#listenImmunity')
+
+function goImmunity(){
+    window.open('https://clairo.lnk.to/immunity','_blank')
+}
+immunity.addEventListener('click',goImmunity)
+
+let diary=document.querySelector('#listenDiary')
+
+function goDiary(){
+    window.open('https://clairo.lnk.to/diary001','_blank')
+}
+diary.addEventListener('click',goDiary)
